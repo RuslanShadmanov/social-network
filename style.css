@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+ display: flex;
+ flex-wrap: wrap;
+ font-size: 20px;   
+ padding: 0;
+ 
+}
+
+.navbar-left{
+    background-color: #076490;
+    text-align: center;
+    flex:7%;
+    color: white;
+    cursor: pointer;
+   
+    line-height: 2.6;
+    
+    
+  
+}
+
+.navbar-right i {
+   
+    
+    cursor: pointer;
+    padding: 16px;
+    
+}
+.navbar-right{
+    background-color:#199de5 ;
+    flex: 93%;
+    
+    color: white;
+   
+}
+
+.navbar-left :hover {
+    background-color:#cccccc;
+    color: black;
+   
+    
+}
+
+
+
+.navbar-right i:hover{
+
+    background-color: white;
+    color: black;
+}
