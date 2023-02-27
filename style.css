@@ -53,3 +53,30 @@
     background-color: white;
     color: black;
 }
+
+.container1{
+    padding: 15px 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.myProfile{
+    text-align: center;
+}
+
+.profilePhoto img{
+    width: 106px;
+    height: 106px;
+    vertical-align: middle;
+}
+
+p{
+    padding-left: 15px;
+}
+.profile i{
+    padding-right: 30px;
+    text-align: center;
+}
