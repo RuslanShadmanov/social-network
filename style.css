@@ -54,29 +54,75 @@
     color: black;
 }
 
+
+/*------------------ letf-side------- */
+
 .container1{
-    padding: 15px 10px;
+    display: grid;
+    grid-template-rows: 300px 200px 200px 200px 200px;
+    gap: 15px;
+    padding: 15px;
+    box-shadow:  -1px 1px 5px 5px rgba(192, 188, 188, 0.6);
+    /* border: 1px solid gray; */
+    border-radius: 3px;
+    margin: 15px;
+    width: 50%;
 }
 
 .main {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px 16px;
+    background-color: #F4F6F7;
 }
 
 .myProfile{
     text-align: center;
+    border-bottom: 1px solid rgba(192, 188, 188, 0.6);
 }
 
 .profilePhoto img{
     width: 106px;
     height: 106px;
     vertical-align: middle;
+    padding: 10px 10px;
 }
 
-p{
-    padding-left: 15px;
-}
+
 .profile i{
+    padding-left: 15px;
     padding-right: 30px;
-    text-align: center;
+    text-align: left;
+}
+
+.profileIcons{
+    padding-top: 20px;
+}
+
+/* -------------My Groups---- */
+
+.myGroup{
+
+    gap: 10px;
+    padding-left: 15px;
+    /* padding-right: 30px; */
+    box-shadow:   1px 5px 9px rgba(192, 188, 188, 0.6);
+}
+
+.myGroup div{
+    background-color:#199de5;
+    color:white;
+    cursor: pointer;
+    padding: 5px;
+   text-align: start;
+   
+}
+
+.myGroup div:hover{
+    background-color: #cccccc;
+    color: black;
+}
+
+.myGroup i{
+    padding-right: 30px ;
 }
