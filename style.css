@@ -45,7 +45,7 @@
 
 .container1 {
   display: grid;
-  grid-template-rows: 300px 450px 120px 200px 200px;
+  grid-template-rows: 300px 450px 120px 120px 200px;
   gap: 15px;
   padding: 15px;
   /* box-shadow:  -1px 1px 5px 5px rgba(192, 188, 188, 0.6); */
@@ -176,4 +176,73 @@
 .interests a10{
     background-color:#d5e4ec ;
     padding: 0px 8px;
+}
+
+/* -----------Hey------ */
+
+.hey{
+  position: relative;
+  background-color: #DFE5E8;
+  padding: 5px 0px 5px 15px;
+}
+ 
+.hey p2 {
+  font-weight: bold;
+  
+}
+.cross{
+  position:absolute;
+  
+  top: 0;
+  right:0;
+  left: 260px;
+  background-color: #CCCCCC;
+  text-align: center;
+  cursor: pointer;
+
+}
+.cross:hover{
+  background-color: #9eb1a9;
+  color: black;
+}
+
+/* ------mid -part--------- */
+
+.container2{
+  display: grid;
+  grid-template-rows: 100px 450px 120px 120px 200px;
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid red;
+
+}
+
+.status{
+  
+  box-shadow: -1px 1px 5px 2px rgba(192, 188, 188, 0.6);
+
+}
+
+input{
+  margin: 10px 2px 16px 2px;
+
+  width: 98%;
+  padding: 8px 16px;
+  border: 1px solid #cccccc;
+}
+
+.post {
+  background-color: #199de5;
+  color: white;
+  width: 60px;
+  margin:3px 5px 3px 5px;
+  padding: 5px;
+  text-align: center;
+  display: inline;
+  cursor: pointer;
+
+}
+.post:hover{
+  background-color: #cccccc;
+  color: black;
 }
