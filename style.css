@@ -52,14 +52,16 @@
   /* border: 1px solid gray; */
   border-radius: 3px;
   margin: 15px;
-  width: 50%;
+  width: 100%;
+  border: solid 1px green;
 }
 
 .main {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 350px 775px 220px;
   gap: 16px 16px;
   background-color: #f4f6f7;
+  border:solid 1px orange;
 }
 
 .myProfile {
@@ -67,7 +69,7 @@
   /* border-bottom: 1px solid rgba(192, 188, 188, 0.6); */
 }
 hr {
-  width: 90%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -214,7 +216,9 @@ hr {
 
 .container2{
   display: grid;
-  grid-template-rows: 100px 450px 120px 120px 200px;
+  grid-template-rows: 120px 440px 250px 120px 200px;
+  grid-template-columns: 730px;
+ 
   gap: 15px;
   padding: 15px;
   border: 1px solid red;
@@ -224,23 +228,27 @@ hr {
 .status{
   
   box-shadow: -1px 1px 5px 2px rgba(192, 188, 188, 0.6);
+  padding: 16px;
+  
+ 
 
 }
 
 input{
-  margin: 10px 2px 16px 2px;
+  /* margin: 10px 2px 16px 2px; */
 
   width: 98%;
   padding: 8px 16px;
   border: 1px solid #cccccc;
+  margin-bottom: 15px;
 }
 
 .post {
   background-color: #199de5;
   color: white;
   width: 60px;
-  margin:3px 5px 3px 5px;
-  padding: 5px;
+  margin-left: 4px;
+  padding: 8px;
   text-align: center;
   display: inline;
   cursor: pointer;
@@ -256,6 +264,8 @@ input{
 
 .dialog1 {
   box-shadow: -1px 1px 5px 2px rgba(192, 188, 188, 0.6);
+ 
+  padding: 16px;
 
 }
 
@@ -265,10 +275,66 @@ input{
  /* justify-content:space-between; */
 flex-direction: row;
 justify-content: space-between;
+margin-top: 10px;
 
 
+}
+.profPhoto span{
+  display: flex;
+  
+}
+
+.profPhoto h5{
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
 .profPhoto img {
   width: 60px;
+}
+.picturesMain{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+column-gap: 10px;
+ text-align: center;
+ 
+ 
+}
+
+ .picturesMain img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.w3-button{
+  display: flex;
+ margin-top:8px;
+  gap: 5px;
+  
+  
+}
+
+.w3-button button{
+  background-color: #199de5;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.w3-button button:hover{
+  background-color: #cccccc;
+  color: black;
+}
+
+/* ----Aikol--- */
+
+.dialog2{
+  box-shadow: -1px 1px 5px 2px rgba(192, 188, 188, 0.6);
+  padding: 16px;
+}
+
+.dialog2 img{
+  border-radius: 50%;
 }
