@@ -45,7 +45,7 @@
 
 .container1 {
   display: grid;
-  grid-template-rows: 300px 450px 120px 120px 200px;
+  grid-template-rows: 300px 495px 120px 120px 200px;
   gap: 15px;
   padding: 15px;
   /* box-shadow:  -1px 1px 5px 5px rgba(192, 188, 188, 0.6); */
@@ -53,15 +53,17 @@
   border-radius: 3px;
   margin: 15px;
   width: 100%;
-  border: solid 1px green;
+  /* border: solid 1px green; */
 }
 
 .main {
   display: grid;
   grid-template-columns: 350px 775px 220px;
+ 
   gap: 16px 16px;
   background-color: #f4f6f7;
-  border:solid 1px orange;
+  
+justify-content: center;
 }
 
 .myProfile {
@@ -190,10 +192,13 @@ hr {
   position: relative;
   background-color: #DFE5E8;
   padding: 5px 0px 5px 15px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
 }
  
 .hey p2 {
   font-weight: bold;
+  
   
 }
 .cross{
@@ -216,12 +221,13 @@ hr {
 
 .container2{
   display: grid;
-  grid-template-rows: 120px 440px 250px 120px 200px;
-  grid-template-columns: 730px;
+  grid-template-rows: 120px 380px 230px 593px 200px;
+  /* grid-template-columns: 730px; */
  
   gap: 15px;
   padding: 15px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin-top: 15px;
 
 }
 
@@ -291,6 +297,7 @@ margin-top: 10px;
 
 .profPhoto img {
   width: 60px;
+  
 }
 .picturesMain{
   display: grid;
@@ -304,12 +311,13 @@ column-gap: 10px;
  .picturesMain img{
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  
+  padding: 10px 0 10px 0px;
 }
 
 .w3-button{
   display: flex;
- margin-top:8px;
+ margin:8px 0px 8px 0px;
   gap: 5px;
   
   
@@ -337,4 +345,71 @@ column-gap: 10px;
 
 .dialog2 img{
   border-radius: 50%;
+}
+
+/* ----Luan---- */
+
+.dialog3{
+  box-shadow: -1px 1px 5px 2px rgba(192, 188, 188, 0.6);
+  padding: 16px;
+
+}
+
+.picturesMain-2 img{
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  padding: 10px 0 10px 0px;
+
+}
+
+p3 a {
+text-decoration: underline;
+color: black;
+
+}
+
+/* ---right side---- */
+
+.container3{
+ 
+  display: grid;
+  grid-template-rows: 380px 260px 85px 130px;
+margin-top:15px;
+padding-top: 15px;
+  
+}
+
+.events{
+  box-shadow: -1px 1px 5px 2px rgba(192, 188, 188, 0.6);
+  padding: 16px;
+  text-align: center;
+ 
+}
+.events div{
+  margin-top: 10px;
+  
+}
+.events p6{
+  font-weight: bold;
+}
+
+.events button{
+  padding: 8px 16px;
+  width: 187px;
+  margin-top: 25px;
+  background-color: #DFE5E8;
+ border: none;
+ cursor: pointer;
+}
+.events button:hover{
+  background-color: #cccccc;
+}
+
+
+.events img{
+  width: 187px;
+  height: 181px;
+  margin: 10px 0px;
+  
 }
