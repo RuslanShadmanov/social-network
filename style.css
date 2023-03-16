@@ -493,3 +493,28 @@ gap: 15px;
  
 font-size: 2.2em;
 }
+/* -- ---Footer---- */
+
+.footer footer{
+  padding: 25px;
+  height: 79px;
+  background-color: #199de5;
+  color: white;
+  font-size: large;
+ 
+
+ 
+}
+
+.footer2{
+  background-color: #076490;
+  color: white;
+  height: 53px;
+  padding: 16px 0 0 25px;
+}
+
+.footer2 a{
+  text-decoration: underline;
+  color: white;
+}
+
